@@ -1,0 +1,69 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# ------------------------------
+# Python / FastAPI
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# ------------------------------
+# Frontend (Vite / Node)
+# ------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+frontend/.cache/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.tmp
+*.temp
+visual_verification_*.webp

@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+pydantic
+python-dotenv
+google-genai
+sqlalchemy
+asyncpg
+python-dotenv
+psycopg2
+authlib
+pandas
